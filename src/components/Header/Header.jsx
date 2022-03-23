@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import logo from "../../images/logo@2x.png";
+import logo from "../../assets/logo@2x.png";
 import "./Header.css";
 
 export default function Header() {
