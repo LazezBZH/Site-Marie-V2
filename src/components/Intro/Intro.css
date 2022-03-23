@@ -1,0 +1,19 @@
+.intro {
+  width: 35%;
+  height: 22rem;
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+.intro h1 {
+  text-align: left;
+}
+.intro p {
+  text-align: justify;
+  font-size: 1.3rem;
+}
+.intro a {
+  text-decoration: none;
+  color: rgb(180, 133, 32);
+}

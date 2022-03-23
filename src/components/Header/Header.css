@@ -1,0 +1,20 @@
+.header-nav {
+  background-image: url(../../images/header2.jpg);
+  background-size: 100%;
+  padding: 0.5rem 0 2.5rem 0.2rem;
+}
+.header-nav img {
+  width: 20rem;
+  background-color: rgba(200, 220, 221, 0.5);
+}
+.header-nav h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff, 1px 1px 10px #948772;
+  color: rgb(151, 84, 6);
+  background-color: rgba(236, 229, 189, 0.5);
+  text-align: center;
+
+  margin-top: 2rem;
+}

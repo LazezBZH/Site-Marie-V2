@@ -1,0 +1,37 @@
+.buttons {
+  width: 60%;
+  height: 25rem;
+  max-width: 45rem;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 45%;
+  height: 24.4rem;
+  padding: 0;
+}
+.buttons img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+}
+.buttons figure {
+  margin: 0;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 3px 3px rgb(184, 180, 180),
+    -1em 0 0.4em rgb(161, 161, 151);
+  box-shadow: 3px 3px rgb(184, 180, 180), -1em 0 0.4em rgb(161, 161, 151);
+  background-image: url(../../assets/fond.png);
+}
+.buttons figcaption {
+  background-color: rgb(247, 240, 233);
+  border: 0.2rem solid rgb(201, 169, 138);
+  border-radius: 0 0 1rem 1rem;
+  width: auto;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(115, 115, 145);
+}
