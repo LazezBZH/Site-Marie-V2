@@ -1,19 +1,16 @@
-import "./Home.css";
-import { useTranslation } from "react-i18next";
-
 import Boutons from "../../components/Boutons/Boutons";
-import Choose from "../../components/Choose/Choose";
+import { Choose } from "../../styles/components/choose";
 import Intro from "../../components/Intro/Intro";
+import { HomeMain } from "../../styles/pages/pages";
 
 export default function Home() {
-  const { i18n } = useTranslation();
   return (
-    <div className="home">
-      <Choose />
-      <div className="home-main App">
+    <>
+      <Choose>Choisissez votre langue/choose your language</Choose>
+      <HomeMain>
         <Boutons />
         <Intro />
-      </div>
-    </div>
+      </HomeMain>
+    </>
   );
 }

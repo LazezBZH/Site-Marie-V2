@@ -14,6 +14,7 @@ i18n
           IntroTitle: "Sophrology and Reiki.",
           intro:
             "I’m qualified sophrologist and in reiki as well. I opened my first pratice in France (Brittany) but live yet in Eire (Mayo, Crossmolina).",
+          enter: "Enter 🚪",
         },
       },
       fr: {
@@ -22,6 +23,7 @@ i18n
           IntroTitle: "Sophrologie et Reiki.",
           intro:
             "Après avoir proposé durant de nombreuses années des séances de sophorlogie et Reiki en Bretagne, à Saint Méen le grand, Montauban de Bretagne et Saint Malo, je vis maintenant en Irlande mais continue cependant à accompagner mes clients en langue française via Skype.",
+          enter: "Entrer 🚪",
         },
       },
     },
