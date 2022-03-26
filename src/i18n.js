@@ -10,7 +10,9 @@ i18n
     resources: {
       en: {
         translations: {
-          Title: "Marie Aballea: Sophrology and Reiki.",
+          Title: "Sophrology and Reiki.",
+          subtitle: "Crossmolina, Mayo, Eire.",
+          subtitle2: "",
           IntroTitle: "Sophrology and Reiki.",
           intro:
             "I’m qualified sophrologist and in reiki as well. I opened my first pratice in France (Brittany) but live yet in Eire (Mayo, Crossmolina).",
@@ -19,7 +21,9 @@ i18n
       },
       fr: {
         translations: {
-          Title: "Marie Aballea: Sophrologie et Reiki.",
+          Title: "Sophrologie et Reiki.",
+          subtitle: "Bretagne, France.",
+          subtitle2: "Séances à distance possibles.",
           IntroTitle: "Sophrologie et Reiki.",
           intro:
             "Après avoir proposé durant de nombreuses années des séances de sophorlogie et Reiki en Bretagne, à Saint Méen le grand, Montauban de Bretagne et Saint Malo, je vis maintenant en Irlande mais continue cependant à accompagner mes clients en langue française via Skype.",

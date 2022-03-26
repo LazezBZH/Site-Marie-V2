@@ -1,5 +1,5 @@
 const colors = {
-  primary: "#000000", // texte général noir
+  primary: "#000000", // texte général noirt
   secondary: "#FFFFFF", // texte général noir
   h1txt: "rgb(151, 84, 6)", // texte titre
   introtxt: "rgb(180, 133, 32)", // texte intro
@@ -10,7 +10,7 @@ const colors = {
   captionbg: "rgb(247, 240, 236)", // background figcaption
   introbg: "rgba(255, 255, 255, 0.25)", // background intro
 
-  captionbord: "rgba(236, 229, 189, 0.5)", // border figcaption
+  captionbord: "rgba(151, 84, 6, 0.5)", // border figcaption
 
   figshadow1: "rgb(184, 180, 180)", // figures shadow 1
   figshadow2: "rgb(161, 161, 151)", // figures shadow 2

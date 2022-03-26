@@ -1,10 +1,14 @@
-import { useTranslation } from "react-i18next";
+import Aside from "../../components/Aside/Aside";
 
-export default function Accueil() {
-  const { i18n } = useTranslation();
+//import Intro from "../../components/Intro/Intro";
+import { Main } from "../../styles/pages/pages";
+
+export default function Home() {
   return (
-    <div className="accueil">
-      <div className="home-main App"></div>
-    </div>
+    <>
+      <Main>
+        <Aside></Aside>
+      </Main>
+    </>
   );
 }

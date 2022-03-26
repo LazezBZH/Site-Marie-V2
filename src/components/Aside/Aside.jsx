@@ -1,33 +1,27 @@
 import { useTranslation } from "react-i18next";
-import {
-  Buttons,
-  Button,
-  Figure,
-  Figcaption,
-  France,
-  Irlande,
-} from "../../styles/components/buttons";
+import france from "../../assets/france.jpg";
+import irlande from "../../assets/irlande.jpg";
 
-export default function Boutons() {
+export default function Aside() {
   const { i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
   return (
-    <Buttons>
-      <Button
+    <div className="buttons">
+      <button
         style={{
           fontWeight: i18n.resolvedLanguage === "fr" ? "bolder" : "normal",
           borderColor: i18n.resolvedLanguage === "fr" ? "red" : "#ffeceff1",
         }}
         onClick={() => changeLanguage("fr")}
       >
-        <Figure>
-          <France></France>
-          <Figcaption> Site en français</Figcaption>
-        </Figure>
-      </Button>
-      <Button
+        <figure className="version-fr">
+          <img src={france} alt="version française" />
+          <figcaption> Site en français</figcaption>
+        </figure>
+      </button>
+      <button
         style={{
           fontWeight: i18n.resolvedLanguage === "en" ? "bolder" : "normal",
 
@@ -35,11 +29,11 @@ export default function Boutons() {
         }}
         onClick={() => changeLanguage("en")}
       >
-        <Figure>
-          <Irlande></Irlande>
-          <Figcaption> Website in english</Figcaption>
-        </Figure>
-      </Button>
-    </Buttons>
+        <figure className="version-en">
+          <img src={irlande} alt="english version" />
+          <figcaption> Website in english</figcaption>
+        </figure>
+      </button>
+    </div>
   );
 }
